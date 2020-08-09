@@ -1,8 +1,12 @@
 <template>
   <div class="container">
     <img class="img-fluid mt-4 shadow" src="../../public/assets/banner-home.webp" alt="">
-    <div class="my-5 mx-3 shadow-lg">
 
+  <div class="button col text-center mt-5" >
+    <router-link to="/contacto" class="btn rounded-pill text-light px-4 py-2 shadow-sm">SOLICITA PRESUPUESTOS</router-link>
+
+  </div>
+    <div class="card-group-container my-5 mx-3 shadow-lg">
     <div class="card-group">
       <div class="card text-dark p-3">
         <div class="card-body h5">
@@ -47,7 +51,10 @@ export default {
 }
 </script>
 <style scoped>
-.card{
+.button .btn{
+  background-color: #09196e;
+}
+.card, {
   background-color: lightgrey;
 }
 

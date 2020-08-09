@@ -1,15 +1,18 @@
 <template>
-    <div>
-<h1>This is Página de servicios</h1>
+  <div>
+    <div class="container">
+        <carousel/>
     </div>
+
+  </div>
 </template>
 
 <script>
-    export default {
-        
-    }
+import carousel from '../components/ServiceCarousel';
+export default {
+    components: {carousel}
+};
 </script>
 
 <style scoped>
-
 </style>
