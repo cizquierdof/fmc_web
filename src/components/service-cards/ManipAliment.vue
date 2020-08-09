@@ -2,7 +2,6 @@
   <b-carousel-slide
     caption="MANIPULADORES DE ALIMENTOS"
     img-src="https://images.unsplash.com/photo-1482932973216-15c6808e8691?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80"
-    img-height="600"
   >
     <p>
       El RD 2207/95, resalta la importancia y obligación de los empresarios del

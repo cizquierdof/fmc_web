@@ -8,8 +8,7 @@
       indicators
       background="#ababab"
       img-width="1024"
-      img-height="480"
-      style="text-shadow: 1px 1px 2px #333;"
+      img-height="600"
       @sliding-start="onSlideStart"
       @sliding-end="onSlideEnd"
     >
@@ -60,12 +59,15 @@ export default {
 };
 </script>
 
-<style scoped>
-.carousel-caption p,
-ul {
-  color: #ffffff;
-  /* text-shadow: 1px 1px 2px black, 0 0 15px blue, 0 0 5px darkblue; */
-  /* text-shadow: 3px 3px 10px hsl(0, 0%, 3%); */
-  text-shadow: 1px 0 black, 0 1px black, 1px 0 black, 0 1px black;
+<style>
+.carousel {
+  font-size: 1.3rem;
+  font-weight: 800;
+  text-shadow: 2px 2px 2px #333;
+
 }
+.carousel-item p{
+  color: rgb(255, 255, 255) !important;
+}
+
 </style>

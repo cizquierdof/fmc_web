@@ -2,7 +2,6 @@
   <b-carousel-slide
     caption="PREVENCIÓN EN EL  BLANQUEO DE CAPITALES Y LA FINANCIACIÓN DEL TERRORISMO"
     img-src="https://d500.epimg.net/cincodias/imagenes/2019/03/11/legal/1552316619_000553_1552378393_rrss_normal.jpg"
-    img-height="600"
   >
     <p>
       La Ley principal que regula la Prevención en BC-FT es la LEY 10/2010, de

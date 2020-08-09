@@ -2,7 +2,6 @@
   <b-carousel-slide
     caption="ALÉRGENOS"
     img-src="https://www.manipulador-de-alimentos.es/blog/wp-content/uploads/2017/01/que-son-alergenos-alimentarios.jpg"
-    img-height="600px"
   >
     <p>
       Las alergias e intolerancias alimentarias son reacciones adversas a los

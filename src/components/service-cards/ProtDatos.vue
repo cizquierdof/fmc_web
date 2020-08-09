@@ -2,7 +2,7 @@
   <b-carousel-slide
     img-src="https://cdn.pixabay.com/photo/2019/08/09/08/21/data-protection-4394633_960_720.jpg"
   >
-    <b-card img-left img-height="600">
+  <h3>PROTECCIÓN DE DATOS</h3>
       <p>
         Desde el 25 de Mayo de 2018, se aplica el Nuevo REGLAMENTO GENERAL DE
         PROTECCIÓN DE DATOS (RGPD), de origen comunitario. Esta normativa
@@ -24,7 +24,6 @@
         Nosotros ofrecemos un servicio integrado y os ayudamos a adaptar a
         vuestro negocio al nuevo Reglamento.
       </p>
-    </b-card>
   </b-carousel-slide>
 </template>
 
@@ -32,8 +31,12 @@
 export default {};
 </script>
 
-<style scoped>
+<style>
 .carousel-item {
+  height: 700px;
+}
+.carousel-item img{
+ height: 700px;
 }
 .card {
   background-color: rgba(161, 213, 223, 0.397);
