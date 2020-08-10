@@ -1,8 +1,5 @@
 <template>
-  <b-carousel-slide
-    caption="ALÉRGENOS"
-    img-src="https://www.manipulador-de-alimentos.es/blog/wp-content/uploads/2017/01/que-son-alergenos-alimentarios.jpg"
-  >
+  <b-carousel-slide caption="ALÉRGENOS">
     <p>
       Las alergias e intolerancias alimentarias son reacciones adversas a los
       alimentos que pueden ser leves, como picores y erupciones en la piel,
@@ -21,7 +18,7 @@
     <p>
       El servicio integrado que te ofrecemos es:
     </p>
-    <ul class="list-unstyled h6">
+    <ul class="list-unstyled">
       <li>Cartel informativo al cliente</li>
       <li>Carta de alérgenos personalizados</li>
       <li>Información para el empresario y los trabajadores</li>
@@ -34,4 +31,16 @@
 export default {};
 </script>
 
-<style scoped></style>
+<style scoped>
+.carousel-item {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)),
+    url(https://www.manipulador-de-alimentos.es/blog/wp-content/uploads/2017/01/que-son-alergenos-alimentarios.jpg) !important;
+}
+ul{
+  float: right;
+  color: bisque;
+}
+li{
+  text-align: start;
+}
+</style>

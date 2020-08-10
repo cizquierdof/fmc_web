@@ -1,8 +1,6 @@
 <template>
   <b-carousel-slide
     caption="APPCC (Análisis de peligros y Puntos de Control Críticos"
-    img-src="https://colegioveterinarios.net/wp-content/uploads/2019/09/Alimentacion_Inesem-1024x683.jpg"
-    img-height="600"
   >
     <p>
       La obligación de implantación de sistemas de autocontrol basados en el
@@ -24,4 +22,9 @@
 export default {};
 </script>
 
-<style scoped></style>
+<style scoped>
+.carousel-item {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+    url(https://colegioveterinarios.net/wp-content/uploads/2019/09/Alimentacion_Inesem-1024x683.jpg) !important;
+}
+</style>

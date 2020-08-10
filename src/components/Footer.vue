@@ -1,5 +1,5 @@
 <template>
-  <div class="container ">
+  <div class="container-fluid ">
     <div class="address py-3">
       <p>EMPRESA CERTIFICADA FMC C.B.</p>
       <p>AVDA. DR. WAKSMAN, 10 BAJO</p>
@@ -28,7 +28,7 @@ export default {};
 </script>
 
 <style scoped>
-.container {
+.container-fluid {
   background-color: #09196e;
   color: whitesmoke;
   display: grid;

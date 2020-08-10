@@ -3,7 +3,7 @@
     <b-carousel
       id="carousel-1"
       v-model="slide"
-      :interval="0"
+      :interval="8000"
       controls
       indicators
       background="#ababab"
@@ -61,13 +61,20 @@ export default {
 
 <style>
 .carousel {
-  font-size: 1.3rem;
-  font-weight: 800;
+  width: 80%;
+  max-width: 1300px;
+  min-width: 700px;
+  font-size: 1.2rem;
+  font-weight: 500;
   text-shadow: 2px 2px 2px #333;
+  margin: 0 auto;
 
 }
-.carousel-item p{
-  color: rgb(255, 255, 255) !important;
+
+.carousel-item{
+  height: 700px;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
 }
 
 </style>

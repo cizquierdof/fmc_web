@@ -2,7 +2,7 @@
   <b-carousel-slide
     id="riesgos"
     caption="PREVENCIÓN DE RIESGOS LABORALES"
-    img-src="https://images.unsplash.com/photo-1530639834082-05bafb67fbbe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+    img-src=""
     img-height="600"
   >
     <p>
@@ -33,4 +33,10 @@
 export default {};
 </script>
 
-<style scoped></style>
+<style scoped>
+.carousel-item {
+  height: 700px;
+  background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.5)), url(https://images.unsplash.com/photo-1530639834082-05bafb67fbbe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80) !important;
+}
+
+</style>
